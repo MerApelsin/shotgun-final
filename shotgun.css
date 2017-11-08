@@ -1,0 +1,84 @@
+.container{
+	background-color: black;
+	position: relative;
+	width: 80%;
+	height: 100%;
+	overflow:hidden;
+}
+
+pre { color:white; }
+
+#bulletCount { color:white; 
+margin-left: 180px;
+}
+
+h3{
+	color: black;
+	z-index: 1;
+	margin-left: 20px;
+	position: absolute;
+}
+#playerImg{
+	margin-top: 20px;
+	float: right;
+	z-index: 0;
+	position: absolute;
+}
+
+#enemyImg{
+	margin-top: 20px;
+	float: right;
+	z-index: 0;
+	position: absolute;
+}
+#actionImg{
+	margin-top: 20px;
+	float: right;
+	z-index: 0;
+	position: absolute;
+	margin-left: 40px;
+}
+
+#enemyBullets{
+	color: white;
+	margin-top: 450px;
+	margin-left: 30px;
+}
+.enemy{
+	background-color: white;
+	width: 30%;
+	float:left;
+	height: 400px;
+}
+
+.action{
+	background-color:white;
+	width: 40%;
+	height: 400px;
+	float: left;
+}
+
+.player{
+	background-color: white;
+	width: 30%;
+	float:left;
+	height: 400px;
+}
+
+.controls{
+	float: right;
+	margin-left: 10px;
+	margin-top: 3px;
+}
+
+li{
+	padding: 2px;
+	color:white;
+	margin-left: 150px;
+}
+
+form {
+	margin-bottom: 5px;
+	margin-left: 160px;
+}
+

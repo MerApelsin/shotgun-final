@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<script type="text/javascript" src="shotgun.js" defer></script>
+	<link rel="stylesheet" type="text/css" href="shotgun.css">
+	<title>Shotgun</title>
+</head>
+<body>
+	<div class="container">
+		<div id="enemy" class="enemy">
+			<h3>Enemy!</h3>
+			<img src="img\enemyC-idle.png" alt="enemy" id="enemyImg">
+			<p id="enemyBullets">Enemy bullets: 0</p>
+		</div>
+		<div id="middleAction" class="action">
+			<h3 id="actionText">WHAT WILL HAPPEN?</h3>
+			<img src="img\idle.png" alt="enemy" id="actionImg">
+
+		</div>
+		<div id="player" class="player">
+			<h3>You!</h3>
+			<img src="img\playerC-idle.png" alt="player" id="playerImg">
+		</div> 
+		<div id="buttonArea" class="controls">
+			<pre>
+			Write the corresponding number 
+			for your choice of action,shotgun is only 
+			avaliable after saving 3 bullets:</pre>
+			<p id="bulletCount">Bullets: 0</p>
+			<ol>
+				<li>Shoot</li>
+				<li>Block</li>
+				<li>Load</li>
+				<li>SHOTGUN</li>
+			</ol>
+			<form>
+				<input type="text" name="choice" id="textChoice" placeholder="Type your choice...">
+				<input type="button" name="choices" value="GO" id="choiceButton">
+				<input type="button" name="restart" value="Restart" id="resetBtn">
+			</form>
+		</div>
+	</div>
+</body>
+</html>
