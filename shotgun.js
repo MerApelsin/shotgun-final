@@ -201,6 +201,7 @@ function userPlay(playerVar, numberChoice){
     }
 }
 //compare the moves of ai/player and says result, also handle action img + dead img
+//Obviously, this is a if/else of doom.
 function compare(playerVar, aiVar){
     var actionPic = document.getElementById("actionImg");
 
